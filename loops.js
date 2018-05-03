@@ -15,9 +15,13 @@ function whileLoop(number){
 }
 
 function doWhileLoop(arr){
-  while (number > 0){
-    console.log(--number)  
-  }
-  return `done`
+  do {
+    arr.pop()  
+  } while(maybeTrue() && arr.length>0)
+  return arr
   
+}
+
+function maybeTrue() {
+  return Math.random() >= 0.5
 }
