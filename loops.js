@@ -14,7 +14,7 @@ function whileLoop(number){
   
 }
 
-function whileLoop(number){
+function doWhileLoop(arr){
   while (number > 0){
     console.log(--number)  
   }
