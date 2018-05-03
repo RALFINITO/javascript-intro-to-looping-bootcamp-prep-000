@@ -5,3 +5,10 @@ function forLoop(arr){
   }
   return arr
 }
+
+function whileLoop(number){
+  while (countdown >= 0){
+    console.log(countdown--)  
+  }
+  
+}
